@@ -1,0 +1,11 @@
+E:\CSharp\Login\Login.Domain\bin\Debug\net8.0\Login.Domain.deps.json
+E:\CSharp\Login\Login.Domain\bin\Debug\net8.0\Login.Domain.dll
+E:\CSharp\Login\Login.Domain\bin\Debug\net8.0\Login.Domain.pdb
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\Login.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\Login.Domain.AssemblyInfoInputs.cache
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\Login.Domain.AssemblyInfo.cs
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\Login.Domain.csproj.CoreCompileInputs.cache
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\Login.Domain.dll
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\refint\Login.Domain.dll
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\Login.Domain.pdb
+E:\CSharp\Login\Login.Domain\obj\Debug\net8.0\ref\Login.Domain.dll

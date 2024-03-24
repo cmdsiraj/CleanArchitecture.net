@@ -1,0 +1,15 @@
+E:\CSharp\Login\Login.Application\bin\Debug\net8.0\Login.Application.deps.json
+E:\CSharp\Login\Login.Application\bin\Debug\net8.0\Login.Application.dll
+E:\CSharp\Login\Login.Application\bin\Debug\net8.0\Login.Application.pdb
+E:\CSharp\Login\Login.Application\bin\Debug\net8.0\Login.Domain.dll
+E:\CSharp\Login\Login.Application\bin\Debug\net8.0\Login.Domain.pdb
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.csproj.AssemblyReference.cache
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.AssemblyInfoInputs.cache
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.AssemblyInfo.cs
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.csproj.CoreCompileInputs.cache
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Ap.2B818963.Up2Date
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.dll
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\refint\Login.Application.dll
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.pdb
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\ref\Login.Application.dll
