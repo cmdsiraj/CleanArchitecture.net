@@ -5,6 +5,8 @@ namespace Login.Application.IServices
 {
     public interface ITokenService
     {
-         TokenDTO GenerateToken(User user);
+         TokenDTO GenerateJwtToken(User user);
+
+        TokenDTO GenerateLoginToken(string email, DateTime timestamp);
     }
 }

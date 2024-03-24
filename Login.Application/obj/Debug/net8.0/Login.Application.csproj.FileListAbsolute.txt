@@ -13,3 +13,4 @@ E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.dll
 E:\CSharp\Login\Login.Application\obj\Debug\net8.0\refint\Login.Application.dll
 E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.pdb
 E:\CSharp\Login\Login.Application\obj\Debug\net8.0\ref\Login.Application.dll
+E:\CSharp\Login\Login.Application\obj\Debug\net8.0\Login.Application.sourcelink.json

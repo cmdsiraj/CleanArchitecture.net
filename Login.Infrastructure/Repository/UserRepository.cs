@@ -12,6 +12,15 @@ namespace Login.Infrastructure.Repository
         {
             this._db = db;
         }
+
+        public void AddUserToken(UserToken userToken)
+        {
+            if(userToken.Email == null) throw new ArgumentNullException("email");
+            if(userToken.Token == null) throw new ArgumentNullException("token");
+            _db.UserTokens.Add(userToken);
+            _db.SaveChanges();
+        }
+
         public void AddUser(User user)
         {
             _db.Users.Add(user);

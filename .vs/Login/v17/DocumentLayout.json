@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\CSharp\\Login\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F795C742-1E07-4DCD-865F-EEFE6300C572}|Login.Presentation\\Login.API.csproj|e:\\csharp\\login\\login.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F795C742-1E07-4DCD-865F-EEFE6300C572}|Login.Presentation\\Login.API.csproj|solutionrelative:login.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFC301D-40B1-4D5C-98EF-31750A3CF60F}|Login.Application\\Login.Application.csproj|e:\\csharp\\login\\login.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFC301D-40B1-4D5C-98EF-31750A3CF60F}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFC301D-40B1-4D5C-98EF-31750A3CF60F}|Login.Application\\Login.Application.csproj|e:\\csharp\\login\\login.application\\ireopositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFC301D-40B1-4D5C-98EF-31750A3CF60F}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\ireopositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFC301D-40B1-4D5C-98EF-31750A3CF60F}|Login.Application\\Login.Application.csproj|e:\\csharp\\login\\login.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFC301D-40B1-4D5C-98EF-31750A3CF60F}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966F6EE9-B027-44CD-A02D-A7464E027120}|Login.Domain\\Login.Domain.csproj|e:\\csharp\\login\\login.domain\\models\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{966F6EE9-B027-44CD-A02D-A7464E027120}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\models\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\CSharp\\Login\\Login.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Login.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\CSharp\\Login\\Login.Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Login.Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwBYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T18:09:25.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\CSharp\\Login\\Login.Application\\IReopositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Login.Application\\IReopositories\\IUserRepository.cs",
+              "ToolTip": "E:\\CSharp\\Login\\Login.Application\\IReopositories\\IUserRepository.cs",
+              "RelativeToolTip": "Login.Application\\IReopositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T17:55:31.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\CSharp\\Login\\Login.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Services\\UserService.cs",
+              "ToolTip": "E:\\CSharp\\Login\\Login.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Login.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T17:48:43.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\CSharp\\Login\\Login.Application\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "Login.Application\\IServices\\IUserService.cs",
+              "ToolTip": "E:\\CSharp\\Login\\Login.Application\\IServices\\IUserService.cs",
+              "RelativeToolTip": "Login.Application\\IServices\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T17:47:48.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserToken.cs",
+              "DocumentMoniker": "E:\\CSharp\\Login\\Login.Domain\\Models\\UserToken.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Models\\UserToken.cs",
+              "ToolTip": "E:\\CSharp\\Login\\Login.Domain\\Models\\UserToken.cs",
+              "RelativeToolTip": "Login.Domain\\Models\\UserToken.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T17:43:41.403Z",
+              "EditorCaption": ""
             }
           ]
         }

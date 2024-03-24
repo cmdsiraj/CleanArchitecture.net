@@ -16,6 +16,28 @@ namespace Login.Application.Services
             this._tokenService = tokenService;
         }
 
+        public User? CreateUser(SignUpDTO signupDto)
+        {
+            if(signupDto== null) throw new ArgumentNullException(nameof(signupDto));
+            TokenDTO token = _tokenService.GenerateLoginToken(signupDto.Email, DateTime.UtcNow);
+            User user = new()
+            {
+                UserName = signupDto.Username,
+                Email = signupDto.Email,
+                Password = signupDto.Password,
+                Role = "xyz",
+                CreatedAt = DateTime.UtcNow
+            };
+            UserToken ut = new()
+            {
+                Email = signupDto.Email,
+                Token = token.Token,
+            };
+            _userRepository.AddUser(user);
+            _userRepository.AddUserToken(ut);
+            return user;
+        }
+
         public IEnumerable<User> GetAllUsers()
         {
             IEnumerable<User> users = _userRepository.GetAllUsers();
@@ -45,7 +67,7 @@ namespace Login.Application.Services
             {
                 return null;
             }
-            TokenDTO token = _tokenService.GenerateToken(user);
+            TokenDTO token = _tokenService.GenerateJwtToken(user);
             return token;
         }
 

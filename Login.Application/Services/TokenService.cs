@@ -5,6 +5,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace Login.Application.Services
@@ -17,7 +18,7 @@ namespace Login.Application.Services
         {
             this._jwtSettings = jwtSettings.Value;
         }
-        public TokenDTO GenerateToken(User user)
+        public TokenDTO GenerateJwtToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenKey = Encoding.UTF8.GetBytes(_jwtSettings.Key);
@@ -32,6 +33,17 @@ namespace Login.Application.Services
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return new TokenDTO {Token = tokenHandler.WriteToken(token) };
+        }
+
+        public TokenDTO GenerateLoginToken(string email, DateTime timestamp)
+        {
+            string secretKey = _jwtSettings.Key;
+            string encodeData = $"{email}:{timestamp}";
+            using (var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(secretKey)))
+            {
+                byte[] hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(encodeData));
+                return new TokenDTO { Token = Convert.ToBase64String(hash) };
+            }
         }
     }
 }

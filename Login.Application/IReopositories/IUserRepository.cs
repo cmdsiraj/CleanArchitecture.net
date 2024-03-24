@@ -8,7 +8,7 @@ namespace Login.Application.IReopositories
 
         User? GetUserByUserName(string username);
         User? GetUserByEmail(string email);
-
         IEnumerable<User> GetAllUsers();
+        void AddUserToken(UserToken userToken);
     }
 }

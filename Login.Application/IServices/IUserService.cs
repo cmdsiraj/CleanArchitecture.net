@@ -9,5 +9,7 @@ namespace Login.Application.IServices
         User? SignUp(SignUpDTO singupDto);
         User? GetUser(string username);
         IEnumerable<User> GetAllUsers();
+
+        User? CreateUser(SignUpDTO signupDto);
     }
 }

@@ -17,3 +17,4 @@ E:\CSharp\Login\Login.Infrastructure\obj\Debug\net8.0\refint\Login.Infrastructur
 E:\CSharp\Login\Login.Infrastructure\obj\Debug\net8.0\Login.Infrastructure.pdb
 E:\CSharp\Login\Login.Infrastructure\obj\Debug\net8.0\Login.Infrastructure.genruntimeconfig.cache
 E:\CSharp\Login\Login.Infrastructure\obj\Debug\net8.0\ref\Login.Infrastructure.dll
+E:\CSharp\Login\Login.Infrastructure\obj\Debug\net8.0\Login.Infrastructure.sourcelink.json

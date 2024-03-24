@@ -7,5 +7,6 @@ namespace Login.Infrastructure.Data
     {
         public DataContext(DbContextOptions<DataContext> options): base(options) {}
         public DbSet<User> Users { get; set; }
+        public DbSet<UserToken> UserTokens { get; set; }
     }
 }

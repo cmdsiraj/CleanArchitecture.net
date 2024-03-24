@@ -23,7 +23,7 @@ namespace Login.API.Controllers
                 ModelState.AddModelError("null", "Entries must not be null");
                 return BadRequest(ModelState);
             }
-            User? result = _userService.SignUp(signupDto);
+            User? result = _userService.CreateUser(signupDto);
             if(result == null)
             {
                 ModelState.AddModelError("Error", "Error while registering the user");
